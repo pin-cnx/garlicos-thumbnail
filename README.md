@@ -1,4 +1,6 @@
 # garlicos-thumbnail
+Generate the thumbnail by the list of file and make it look like you browsing them.
+
 
 [![Image generator](https://img.youtube.com/vi/rwKNEyE0mS4/0.jpg)](https://youtube.com/shorts/rwKNEyE0mS4)
 
@@ -6,6 +8,18 @@
 ```
 pip install Pillow
 ```
+You have to use Skraper(https://www.skraper.net) to download all of image
+so the path of image will end up like
+```
+SDCARD2/
+  |-SFC/
+    |-media/
+    | |-box2dfront/
+    | |-screenshot/
+    | |-screenshottitle/
+    |-GameA.smc
+```
+
 ### Config
 Change path in generate.py
 ```
