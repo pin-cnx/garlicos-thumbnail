@@ -11,13 +11,22 @@ pip install Pillow
 You have to use Skraper(https://www.skraper.net) to download all of image
 so the path of image will end up like
 ```
-SDCARD2/
-  |-SFC/
-    |-media/
-    | |-box2dfront/
-    | |-screenshot/
-    | |-screenshottitle/
-    |-GameA.smc
+SDCARD2
+  ├─GBA
+  └─SFC
+    ├─media
+    │ ├─box2dfront
+    │ │ ├─GameA.png
+    │ │ └─GameB.png
+    │ ├─screenshot
+    │ │ ├─GameA.png
+    │ │ └─GameB.png
+    │ └─screenshottitle
+    │   ├─GameA.png    
+    │   └─GameB.png    
+    │
+    ├─GameA.smc
+    └─GameB.smc
 ```
 
 ### Config
